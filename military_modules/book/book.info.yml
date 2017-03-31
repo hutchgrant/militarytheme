@@ -1,0 +1,17 @@
+name: Book
+description: 'Provides Book content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - captcha
+  - field
+  - hero
+  - image
+  - link
+  - menu_ui
+  - node
+  - path
+  - text
+  - uc_product
+  - user
+  - views

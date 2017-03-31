@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9bdf50df-e0d4-498b-b542-30f1dc61f0da'
+  module:
+    - block_content
+    - system
+  theme:
+    - military
+id: inmemoryofintroduction
+theme: military
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:9bdf50df-e0d4-498b-b542-30f1dc61f0da'
+settings:
+  id: 'block_content:9bdf50df-e0d4-498b-b542-30f1dc61f0da'
+  label: 'in memory of introduction'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /in-memory-of
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,75 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.book.body
+    - field.field.node.book.field_amazon
+    - field.field.node.book.field_image
+    - field.field.node.book.field_yu_bookstore
+    - image.style.max_650x650
+    - node.type.book
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  add_to_cart:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  display_price:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_amazon:
+    weight: 5
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: max_650x650
+      image_link: file
+    third_party_settings: {  }
+    type: image
+  field_yu_bookstore:
+    weight: 6
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  links:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  cost: true
+  dimensions: true
+  model: true
+  price: true
+  weight: true

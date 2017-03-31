@@ -1,0 +1,15 @@
+name: hero2
+description: 'Provides hero2 content type and related configuration. New version of the hero content type featuring a slick slider for an image slideshow'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - slick
+  - text
+  - uc_product
+  - user

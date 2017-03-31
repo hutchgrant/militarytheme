@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4fd189a6-e8c0-4673-8f1c-511baf0ef40b'
+  module:
+    - block_content
+    - system
+  theme:
+    - military
+id: featurettes
+theme: military
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:4fd189a6-e8c0-4673-8f1c-511baf0ef40b'
+settings:
+  id: 'block_content:4fd189a6-e8c0-4673-8f1c-511baf0ef40b'
+  label: featurettes
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

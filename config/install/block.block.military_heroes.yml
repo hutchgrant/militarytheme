@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.heroes
+  module:
+    - system
+  theme:
+    - military
+id: heroes
+theme: military
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:heroes'
+settings:
+  id: 'system_menu_block:heroes'
+  label: Heroes
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/in-memory-of\r\n/in-memory-of/*"
+    negate: false
+    context_mapping: {  }

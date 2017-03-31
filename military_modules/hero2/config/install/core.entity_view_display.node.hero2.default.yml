@@ -1,0 +1,91 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hero2.body
+    - field.field.node.hero2.field_image_slick
+    - node.type.hero2
+  module:
+    - slick
+    - text
+    - user
+id: node.hero2.default
+targetEntityType: node
+bundle: hero2
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  field_image_slick:
+    weight: 1
+    label: hidden
+    settings:
+      optionset: default2
+      optionset_thumbnail: default2_thumb
+      skin: classic
+      skin_thumbnail: asnavfor
+      image_style: crop_480x480_
+      thumbnail_style: juicebox_square_thumb
+      thumbnail_effect: ''
+      media_switch: ''
+      ratio: ''
+      layout: ''
+      thumbnail_caption: ''
+      cache: 0
+      override: true
+      sizes: ''
+      overridables:
+        arrows: arrows
+        autoplay: autoplay
+        draggable: draggable
+        infinite: infinite
+        dots: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      breakpoints:
+        xs:
+          image_style: thumbnail
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: thumbnail
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: thumbnail
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: thumbnail
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: thumbnail
+          width: ''
+          breakpoint: ''
+      current_view_mode: default
+      background: false
+      caption:
+        title: '0'
+        alt: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      display: main
+      item_id: ''
+      box_caption: ''
+      box_caption_custom: ''
+      box_style: ''
+      icon: false
+      responsive_image_style: ''
+    third_party_settings: {  }
+    type: slick_image
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,24 @@
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:eff5fff6-4f6e-4a06-878f-c8ff6a9c4b47'
+  module:
+    - block_content
+  theme:
+    - military
+id: social
+theme: military
+region: '-1'
+weight: -4
+provider: null
+plugin: 'block_content:eff5fff6-4f6e-4a06-878f-c8ff6a9c4b47'
+settings:
+  id: 'block_content:eff5fff6-4f6e-4a06-878f-c8ff6a9c4b47'
+  label: social
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

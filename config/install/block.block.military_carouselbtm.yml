@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:81860d41-a842-4371-abd4-759f2f639ca1'
+  module:
+    - block_content
+    - system
+  theme:
+    - military
+id: carouselbtm
+theme: military
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:81860d41-a842-4371-abd4-759f2f639ca1'
+settings:
+  id: 'block_content:81860d41-a842-4371-abd4-759f2f639ca1'
+  label: 'carousel btm'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

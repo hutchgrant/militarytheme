@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: medlarge
+label: medLarge
+effects:
+  4491485f-46ff-4ec5-b914-8a2ce8797587:
+    uuid: 4491485f-46ff-4ec5-b914-8a2ce8797587
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 350
+      upscale: true

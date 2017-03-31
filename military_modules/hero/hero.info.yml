@@ -1,0 +1,16 @@
+name: hero
+description: 'Provides hero content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - captcha
+  - field
+  - image
+  - menu_ui
+  - node
+  - path
+  - responsive_image
+  - text
+  - uc_product
+  - user
+  - views

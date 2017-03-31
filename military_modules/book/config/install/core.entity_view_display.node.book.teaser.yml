@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.book.body
+    - field.field.node.book.field_image
+    - node.type.book
+  module:
+    - text
+    - uc_product
+    - user
+id: node.book.teaser
+targetEntityType: node
+bundle: book
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  dimensions:
+    type: uc_dimensions
+    label: inline
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  display_price:
+    weight: -1
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+  model:
+    type: string
+    label: inline
+    weight: 1
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  price:
+    type: uc_price
+    label: inline
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  weight:
+    type: uc_weight
+    label: inline
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  add_to_cart: true
+  cost: true
+  field_image: true

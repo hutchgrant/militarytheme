@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: heroes
+label: Heroes
+description: 'list of heroes in the memory of page'
+locked: false
+
